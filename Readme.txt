@@ -11,3 +11,8 @@ Also falls ihr mehrere PNGs in eurem Ordner habt und ihr wollt es in eine PDf um
 danach pdftk darauf z.B. zu benutzen, könnt ihr gerne mein Skript verwenden.
 Falls ihr andere Datentypen umwandeln wollt, könnt ihr auch gerne mein Skript anpassen.
 Dafür müsst ihr nur bei pdf=$(echo "$zwischen.pdf") einfach pdf=$(echo "$zwischen.jpg") für JPGs zum Beispiel schreiben.
+(Hier PNG to JPG)
+Falls ihr ein anderes Datentyp in PDF dagegen, umwandeln wollt, könnt ihr bei 
+FILES=$(ls $FILES | grep ".png") es zu FILES=$(ls $FILES | grep ".jpg") ändern.
+(Hier JPG to PDF)
+Ohne Veränderung werden alle PNG zu PDFs umgewandelt.
